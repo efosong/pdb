@@ -1,0 +1,9 @@
+Regulates and distributes power from batteries to the rest of the vehicle.
+Has a kill-switch (can use hall effect to make a 'submersible switch')
+Can control power outputs to every component individually: use power switches
+	20V stuff (just regulated from battery)
+	5V stuff
+	3.3V stuff (using switch mode)
+	CAN power
+Current monitoring for each output -> communicate to main computers etc
+Manage power drawing ??? (-> use the sense stuff on the LTC1473)

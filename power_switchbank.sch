@@ -32,6 +32,7 @@ LIBS:ltc1473
 LIBS:agg-kicad
 LIBS:nmos_sssgd
 LIBS:ehhd015a0a
+LIBS:a1120
 LIBS:pdb-cache
 EELAYER 25 0
 EELAYER END

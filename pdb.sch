@@ -31,6 +31,7 @@ LIBS:valves
 LIBS:ltc1473
 LIBS:agg-kicad
 LIBS:nmos_sssgd
+LIBS:ehhd015a0a
 LIBS:pdb-cache
 EELAYER 25 0
 EELAYER END

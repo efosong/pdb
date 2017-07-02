@@ -1,4 +1,4 @@
-update=Sun 02 Jul 2017 12:42:55 BST
+update=Sun 02 Jul 2017 14:49:25 BST
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=lib/ic/power/ltc1473
 LibName31=agg-kicad
+LibName32=lib/passive/nmos_sssgd

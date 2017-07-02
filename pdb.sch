@@ -30,6 +30,8 @@ LIBS:contrib
 LIBS:valves
 LIBS:ltc1473
 LIBS:agg-kicad
+LIBS:nmos_sssgd
+LIBS:pdb-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -50,7 +52,8 @@ U 5957A7A6
 F0 "Input Power Switch" 60
 F1 "input_power_switch.sch" 60
 F2 "PWR_OUT" O R 3450 3200 60 
-F3 "PWR_IN" I L 2250 3200 60 
+F3 "PWR_IN_1" I L 2250 3050 60 
+F4 "PWR_IN_2" I L 2250 3400 60 
 $EndSheet
 $Sheet
 S 4900 3450 1050 700 
@@ -93,8 +96,12 @@ Wire Wire Line
 Connection ~ 6350 3800
 Wire Wire Line
 	7850 4400 8300 4400
-Text HLabel 1650 3200 0    60   Input ~ 0
-BATT
+Text HLabel 1650 3050 0    60   Input ~ 0
+BATT1
 Wire Wire Line
-	1650 3200 2250 3200
+	1650 3050 2250 3050
+Text HLabel 1650 3400 0    60   Input ~ 0
+BATT2
+Wire Wire Line
+	1650 3400 2250 3400
 $EndSCHEMATC

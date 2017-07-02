@@ -30,6 +30,8 @@ LIBS:contrib
 LIBS:valves
 LIBS:ltc1473
 LIBS:agg-kicad
+LIBS:nmos_sssgd
+LIBS:pdb-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

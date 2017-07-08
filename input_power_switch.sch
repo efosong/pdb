@@ -29,18 +29,18 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:ltc1473
-LIBS:agg-kicad
 LIBS:nmos_sssgd
 LIBS:ehhd015a0a
 LIBS:a1120
 LIBS:tps2024d
 LIBS:its5215l
+LIBS:agg-kicad
 LIBS:pdb-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 2 8
 Title "Input Power Switch"
 Date "2017-07-02"
 Rev "1"

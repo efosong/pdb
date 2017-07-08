@@ -1,4 +1,4 @@
-update=Sat 08 Jul 2017 17:57:09 BST
+update=Sat 08 Jul 2017 19:24:16 BST
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,9 +59,9 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=lib/ic/power/ltc1473
-LibName31=agg-kicad
-LibName32=lib/passive/nmos_sssgd
-LibName33=lib/module/ehhd015a0a
-LibName34=lib/ic/sensor/a1120
-LibName35=lib/ic/power/tps2024d
-LibName36=lib/ic/power/its5215l
+LibName31=lib/passive/nmos_sssgd
+LibName32=lib/module/ehhd015a0a
+LibName33=lib/ic/sensor/a1120
+LibName34=lib/ic/power/tps2024d
+LibName35=lib/ic/power/its5215l
+LibName36=agg-kicad

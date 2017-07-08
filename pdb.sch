@@ -29,18 +29,18 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:ltc1473
-LIBS:agg-kicad
 LIBS:nmos_sssgd
 LIBS:ehhd015a0a
 LIBS:a1120
 LIBS:tps2024d
 LIBS:its5215l
+LIBS:agg-kicad
 LIBS:pdb-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title "Power Distribution Board"
 Date "2017-07-02"
 Rev "1"
@@ -82,7 +82,7 @@ U 5959022D
 F0 "Killswitch" 60
 F1 "killswitch.sch" 60
 F2 "PWR_IN" I L 6750 4400 60 
-F3 "PWR_ENABLE" I R 7850 4400 60 
+F3 "PWR_ENABLE" O R 7850 4400 60 
 $EndSheet
 Wire Wire Line
 	3450 3200 8300 3200

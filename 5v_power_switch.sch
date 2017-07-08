@@ -29,18 +29,18 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:ltc1473
-LIBS:agg-kicad
 LIBS:nmos_sssgd
 LIBS:ehhd015a0a
 LIBS:a1120
 LIBS:tps2024d
 LIBS:its5215l
+LIBS:agg-kicad
 LIBS:pdb-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 6 8
 Title ""
 Date ""
 Rev ""
@@ -50,17 +50,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L TPS2024D U?
-U 1 1 5961656B
-P 6500 3300
-F 0 "U?" H 6300 3800 50  0000 C CNN
-F 1 "TPS2024D" H 6400 2800 50  0000 C CNN
-F 2 "" H 7600 2400 50  0001 C CNN
-F 3 "" H 7600 2400 50  0001 C CNN
-	1    6500 3300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6100 3100 6000 3100
 Wire Wire Line
@@ -68,8 +57,6 @@ Wire Wire Line
 Wire Wire Line
 	5500 3000 6100 3000
 Connection ~ 6000 3000
-Wire Wire Line
-	5500 3300 6100 3300
 NoConn ~ 6100 3400
 Wire Wire Line
 	6100 3600 6050 3600
@@ -127,6 +114,32 @@ Text HLabel 7100 3000 2    60   Output ~ 0
 PWR_OUT
 Text HLabel 5500 3000 0    60   Input ~ 0
 PWR_IN
-Text HLabel 5500 3300 0    60   Input ~ 0
+Text HLabel 4500 3300 0    60   Input ~ 0
 ENABLE
+$Comp
+L TPS2024D U?
+U 1 1 5961656B
+P 6500 3300
+F 0 "U?" H 6300 3800 50  0000 C CNN
+F 1 "TPS2024D" H 6400 2800 50  0000 C CNN
+F 2 "" H 7600 2400 50  0001 C CNN
+F 3 "" H 7600 2400 50  0001 C CNN
+	1    6500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC14 U?
+U 1 1 5962691F
+P 5100 3300
+F 0 "U?" H 5250 3400 50  0000 C CNN
+F 1 "74HC14" H 5300 3200 50  0000 C CNN
+F 2 "" H 5100 3300 50  0001 C CNN
+F 3 "" H 5100 3300 50  0001 C CNN
+	1    5100 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3300 6100 3300
+Wire Wire Line
+	4500 3300 4650 3300
 $EndSCHEMATC

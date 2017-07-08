@@ -33,12 +33,14 @@ LIBS:agg-kicad
 LIBS:nmos_sssgd
 LIBS:ehhd015a0a
 LIBS:a1120
+LIBS:tps2024d
+LIBS:its5215l
 LIBS:pdb-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 3 6
 Title "5V Regulator"
 Date "2017-07-02"
 Rev "1"

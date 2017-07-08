@@ -1,4 +1,4 @@
-update=Sun 02 Jul 2017 18:16:49 BST
+update=Sat 08 Jul 2017 17:57:09 BST
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,3 +63,5 @@ LibName31=agg-kicad
 LibName32=lib/passive/nmos_sssgd
 LibName33=lib/module/ehhd015a0a
 LibName34=lib/ic/sensor/a1120
+LibName35=lib/ic/power/tps2024d
+LibName36=lib/ic/power/its5215l

@@ -40,7 +40,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 6
+Sheet 4 7
 Title "Power Switch Bank"
 Date "2017-07-02"
 Rev "1"
@@ -59,5 +59,14 @@ F2 "PWR_IN" I L 3100 1750 60
 F3 "ENABLE" I L 3100 2000 60 
 F4 "PWR_OUT_1" I R 4250 1750 60 
 F5 "PWR_OUT_2" I R 4250 1900 60 
+$EndSheet
+$Sheet
+S 3100 2550 1150 600 
+U 59616167
+F0 "5V Power Switch" 60
+F1 "5v_power_switch.sch" 60
+F2 "PWR_IN" I L 3100 2700 60 
+F3 "ENABLE" I L 3100 2950 60 
+F4 "PWR_OUT" I R 4250 2700 60 
 $EndSheet
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=Sun 09 Jul 2017 15:24:36 BST
+update=Sun 09 Jul 2017 16:56:45 BST
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=/home/elliot/electronics/agg-kicad
+LibDir=../../electronics/agg-kicad/lib
 [eeschema/libraries]
 LibName1=pdb-rescue
 LibName2=power
@@ -65,4 +65,6 @@ LibName33=lib/module/ehhd015a0a
 LibName34=lib/ic/sensor/a1120
 LibName35=lib/ic/power/tps2024d
 LibName36=lib/ic/power/its5215l
-LibName37=agg-kicad
+LibName37=lib/ic/power/bts6133d
+LibName38=ic/sensor/a1120
+LibName39=/home/elliot/electronics/agg-kicad/agg-kicad

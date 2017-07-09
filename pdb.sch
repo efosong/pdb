@@ -29,12 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ltc1473
-LIBS:nmos_sssgd
-LIBS:ehhd015a0a
 LIBS:a1120
-LIBS:tps2024d
-LIBS:its5215l
 LIBS:agg-kicad
 LIBS:pdb-cache
 EELAYER 25 0

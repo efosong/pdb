@@ -29,12 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ltc1473
-LIBS:nmos_sssgd
-LIBS:ehhd015a0a
 LIBS:a1120
-LIBS:tps2024d
-LIBS:its5215l
 LIBS:agg-kicad
 LIBS:pdb-cache
 EELAYER 25 0
@@ -51,19 +46,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L BTS6133D U?
-U 1 1 596258EA
-P 5800 3450
-AR Path="/5957D255/596222E8/596258EA" Ref="U?"  Part="1" 
-AR Path="/5957D255/596398D9/596258EA" Ref="U6"  Part="1" 
-F 0 "U6" H 5500 3750 50  0000 C CNN
-F 1 "BTS6133D" H 5600 3050 50  0000 C CNN
-F 2 "" H 6850 3050 50  0001 C CNN
-F 3 "" H 6850 3050 50  0001 C CNN
-	1    5800 3450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6300 3450 6450 3450
 Wire Wire Line
@@ -127,6 +109,17 @@ F 1 "PGND" H 5100 4600 50  0000 C CNN
 F 2 "" H 5100 4700 60  0001 C CNN
 F 3 "" H 5100 4700 60  0001 C CNN
 	1    5100 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L BTS6133D U6
+U 1 1 59626AA5
+P 5800 3450
+F 0 "U6" H 5500 3750 50  0000 C CNN
+F 1 "BTS6133D" H 5600 3050 50  0000 C CNN
+F 2 "" H 6850 3050 50  0001 C CNN
+F 3 "" H 6850 3050 50  0001 C CNN
+	1    5800 3450
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

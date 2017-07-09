@@ -29,12 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ltc1473
-LIBS:nmos_sssgd
-LIBS:ehhd015a0a
 LIBS:a1120
-LIBS:tps2024d
-LIBS:its5215l
 LIBS:agg-kicad
 LIBS:pdb-cache
 EELAYER 25 0
@@ -51,17 +46,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L A1120 U9
-U 1 1 595CBD70
-P 6050 4000
-F 0 "U9" H 5850 4300 60  0000 C CNN
-F 1 "A1120" H 5950 3700 60  0000 C CNN
-F 2 "" H 5950 4000 60  0001 C CNN
-F 3 "" H 5950 4000 60  0001 C CNN
-	1    6050 4000
-	1    0    0    -1  
-$EndComp
 $Comp
 L C C9
 U 1 1 595CBDEE
@@ -133,4 +117,15 @@ Connection ~ 5250 3500
 Connection ~ 5250 3900
 Text Label 5250 3500 2    60   ~ 0
 5V
+$Comp
+L A1120 U9
+U 1 1 59626BCF
+P 6050 4000
+F 0 "U9" H 5850 4300 50  0000 C CNN
+F 1 "A1120" H 5950 3700 50  0000 C CNN
+F 2 "" H 5950 4000 50  0001 C CNN
+F 3 "" H 5950 4000 50  0001 C CNN
+	1    6050 4000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

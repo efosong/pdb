@@ -253,7 +253,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 2450 6650 2450
 Wire Wire Line
-	6400 2550 6650 2550
+	6350 2550 6650 2550
 Connection ~ 6600 2550
 Wire Wire Line
 	6500 2550 6500 3950

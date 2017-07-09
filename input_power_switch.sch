@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:pdb-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -51,9 +52,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LTC1473 U1
+L LTC1473-RESCUE-pdb U1
 U 1 1 595A3FD7
 P 5550 4150
+AR Path="/595A3FD7" Ref="U1"  Part="1" 
+AR Path="/5957A7A6/595A3FD7" Ref="U1"  Part="1" 
 F 0 "U1" H 5350 4650 50  0000 C CNN
 F 1 "LTC1473" H 5450 3550 50  0000 C CNN
 F 2 "Housings_SSOP:SSOP-16_3.9x4.9mm_Pitch0.635mm" H 6250 3450 50  0001 C CNN

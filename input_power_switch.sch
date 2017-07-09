@@ -300,7 +300,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 3000 7800 3000
 Wire Wire Line
-	7550 3100 7800 3100
+	7500 3100 7800 3100
 Connection ~ 7750 3100
 Connection ~ 7650 3100
 Wire Wire Line

@@ -40,11 +40,11 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 9
-Title ""
-Date ""
+Sheet 7 9
+Title "High Power Switch"
+Date "2017-07-09"
 Rev ""
-Comp ""
+Comp "CAUV"
 Comment1 ""
 Comment2 ""
 Comment3 ""

@@ -41,10 +41,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 9
-Title ""
-Date ""
+Title "Dual Power Switch"
+Date "2017-07-09"
 Rev ""
-Comp ""
+Comp "CAUV"
 Comment1 ""
 Comment2 ""
 Comment3 ""

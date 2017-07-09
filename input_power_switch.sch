@@ -42,7 +42,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 9
 Title "Input Power Switch"
-Date "2017-07-02"
+Date "2017-07-09"
 Rev "1"
 Comp "CAUV"
 Comment1 ""

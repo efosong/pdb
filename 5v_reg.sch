@@ -138,4 +138,5 @@ PWR_OUT
 Wire Wire Line
 	5600 3600 5350 3600
 Connection ~ 5350 3800
+NoConn ~ 6600 4100
 $EndSCHEMATC

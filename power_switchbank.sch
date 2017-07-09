@@ -61,13 +61,13 @@ F4 "PWR_OUT_1" O R 3850 800 60
 F5 "PWR_OUT_2" O R 3850 950 60 
 $EndSheet
 $Sheet
-S 4900 3850 1150 600 
+S 2750 2750 1150 600 
 U 59616167
 F0 "5V Power Switch" 60
 F1 "5v_power_switch.sch" 60
-F2 "PWR_IN" I L 4900 4000 60 
-F3 "ENABLE" I L 4900 4250 60 
-F4 "PWR_OUT" O R 6050 4000 60 
+F2 "PWR_IN" I L 2750 2900 60 
+F3 "ENABLE" I L 2750 3150 60 
+F4 "PWR_OUT" O R 3900 2900 60 
 $EndSheet
 Text HLabel 2100 800  0    60   Input ~ 0
 BAT_PWR_IN
@@ -75,13 +75,10 @@ Text HLabel 1800 2750 0    60   Input ~ 0
 5V_PWR_IN
 Text HLabel 1800 3000 0    60   Input ~ 0
 ENABLE
-Connection ~ 2400 800 
-Wire Wire Line
-	2100 800  2700 800 
 $Sheet
 S 2734 1616 1150 600 
 U 596222E8
-F0 "Sheet596222E7" 60
+F0 "High Power Switch" 60
 F1 "high_power_switch.sch" 60
 F2 "PWR_IN" I L 2734 1716 60 
 F3 "PWR_OUT" O R 3884 1716 60 

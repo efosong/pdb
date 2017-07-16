@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name pdb)(type KiCad)(uri /home/elliot/cauv/pdb/footprints.pretty)(options "")(descr "Footprints for the Power Distribution Board"))
+)
